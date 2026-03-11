@@ -1,0 +1,118 @@
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "certifications": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "currentOrganisation": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "currentTitle": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "educationLevel": {
+        "analyzer": "lucene.keyword",
+        "type": "string"
+      },
+      "email": {
+        "analyzer": "lucene.keyword",
+        "type": "string"
+      },
+      "text": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+
+      "locations": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "name": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "phone": {
+        "analyzer": "lucene.keyword",
+        "type": "string"
+      },
+      "relevantExperience": {
+        "analyzer": "lucene.keyword",
+        "type": "string"
+      },
+      "skills": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "text": {
+        "analyzer": "lucene.standard",
+        "type": "string"
+      },
+      "totalExperience": {
+        "analyzer": "lucene.keyword",
+        "type": "string"
+      }
+    }
+  }
+}
+
+#vector
+
+{
+  "fields": [
+    {
+      "numDimensions": 1024,
+      "path": "embedding",
+      "similarity": "cosine",
+      "type": "vector"
+    },
+
+    {
+      "path": "name",
+      "type": "filter"
+    },
+    {
+      "path": "email",
+      "type": "filter"
+    },
+    {
+      "path": "phone",
+      "type": "filter"
+    },
+    {
+      "path": "currentOrganisation",
+      "type": "filter"
+    },
+    {
+      "path": "currentTitle",
+      "type": "filter"
+    },
+    {
+      "path": "locations",
+      "type": "filter"
+    },
+    {
+      "path": "skills",
+      "type": "filter"
+    },
+    {
+      "path": "totalExperience",
+      "type": "filter"
+    },
+    {
+      "path": "relevantExperience",
+      "type": "filter"
+    },
+    {
+      "path": "educationLevel",
+      "type": "filter"
+    },	
+    {
+      "path": "text",
+      "type": "filter"
+    }
+  ]
+}

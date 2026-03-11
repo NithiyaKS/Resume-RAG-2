@@ -1,0 +1,377 @@
+/* Search Results Display */
+.search-results-display {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+}
+
+.results-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.results-count {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  background: #e8f4f8;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+/* Loading State */
+.results-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 1.5rem;
+  color: #667eea;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  font-weight: 500;
+}
+
+/* Error State */
+.results-error {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #fff5f5;
+  border-left: 4px solid #e74c3c;
+  color: #c0392b;
+}
+
+.error-icon {
+  font-size: 1.5rem;
+}
+
+.error-message {
+  font-size: 0.95rem;
+}
+
+/* Empty State */
+.results-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 1.5rem;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  opacity: 0.5;
+}
+
+.empty-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Results Table */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  flex: 1;
+}
+
+.results-table tbody {
+  display: block;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.results-table tr {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.results-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.results-table td {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #2c3e50;
+  vertical-align: top;
+}
+
+.results-table th {
+  display: table-cell;
+  padding: 1rem;
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: left;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* Result Columns */
+.name-cell {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.score-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background: #e8f4f8;
+  color: #0284c7;
+}
+
+.score-badge.high {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.score-badge.medium {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.score-badge.low {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Actions */
+.result-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-button {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.action-button:hover {
+  background: #667eea;
+  color: white;
+}
+
+.action-button:active {
+  transform: scale(0.95);
+}
+
+/* Expanded Row Details */
+.expansion-row {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-top: 2px solid #667eea;
+}
+
+.details-content {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #7f8c8d;
+}
+
+.detail-value {
+  color: #2c3e50;
+  line-height: 1.4;
+}
+
+/* Pagination */
+.results-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  background: #f8f9fa;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .results-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .details-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .results-table {
+    font-size: 0.8rem;
+  }
+
+  .results-table td,
+  .results-table th {
+    padding: 0.5rem;
+  }
+
+  .result-actions {
+    flex-direction: column;
+  }
+
+  .action-button {
+    width: 100%;
+  }
+
+  .details-content {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .search-results-display {
+    background: #2a2a2a;
+  }
+
+  .results-header {
+    background: #1f1f1f;
+    border-bottom-color: #444;
+  }
+
+  .results-title {
+    color: #e0e0e0;
+  }
+
+  .results-table th {
+    background: #1f1f1f;
+    color: #e0e0e0;
+    border-bottom-color: #444;
+  }
+
+  .results-table tbody tr:hover {
+    background: #333;
+  }
+
+  .results-table td {
+    color: #e0e0e0;
+    border-bottom-color: #444;
+  }
+
+  .name-cell {
+    color: #e0e0e0;
+  }
+
+  .expansion-row {
+    background: #1f1f1f;
+    border-color: #444;
+    border-top-color: #667eea;
+  }
+
+  .detail-label {
+    color: #999;
+  }
+
+  .detail-value {
+    color: #e0e0e0;
+  }
+
+  .pagination-button {
+    background: #333;
+    border-color: #555;
+    color: #e0e0e0;
+  }
+
+  .pagination-button:hover:not(:disabled) {
+    background: #667eea;
+    border-color: #667eea;
+  }
+
+  .pagination-info {
+    color: #999;
+  }
+}

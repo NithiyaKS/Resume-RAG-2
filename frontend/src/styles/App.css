@@ -1,0 +1,135 @@
+/* Main App Layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+  min-height: 100vh;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+}
+
+/* Header */
+.app-header {
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+  color: white;
+  padding: 2.5rem 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-bottom: 3px solid #3b82f6;
+}
+
+.app-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+}
+
+.app-header p {
+  font-size: 1.05rem;
+  opacity: 0.95;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* Layout Container */
+.app-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+  padding: 2rem 1.5rem;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scrollbar Styling */
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .app-header p {
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+
+  .app-layout {
+    flex-direction: column;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  .app-container {
+    background: #2a2a2a;
+    color: #e0e0e0;
+  }
+
+  .main-content {
+    background: #1f1f1f;
+  }
+}

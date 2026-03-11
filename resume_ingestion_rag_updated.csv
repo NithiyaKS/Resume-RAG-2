@@ -1,0 +1,349 @@
+name,email,phone,location,company,role,education,totalExperience,relevantExperience,skills,text
+ASHWIN P,ashwinp@gmail.com,9752456787,"Chennai, India",Tcs,QA Engineer,B.E COMPUTER SCIENCE ENGINEERING,1.3,1.3,"[""Selenium WebDriver"", ""TestNG"", ""Cucumber"", ""Maven"", ""Jenkins"", ""Java"", ""SQL"", ""Postman"", ""Git"", ""GitHub"", ""JIRA"", ""Agile""]","ASHWIN P 
+9752456787 
+ashwinp@gmail.com 
+ 
+ 
+ 
+Objective 
+ 
+I seek challenging opportunities where I can fully use my skills for the success of the organization. 
+Experience 
+ 
+ 
+Tcs 
+QA Engineer 
+21-Jul-2022 - Present 
+Experienced Automation QA Engineer with 3.3 years of hands-on experience in designing, developing, and 
+executing automated test scripts for web and API applications. Skilled in ensuring high-quality software delivery through 
+robust automation frameworks and continuous integration processes 
+Education 
+ 
+ 
+Course / Degree School / University Grade / 
+Score 
+Year 
+B.E COMPUTER SCIENCE 
+ENGINEERING 
+Vel Tech High Tech Dr.RR & Dr.SD 
+Engineering College 
+81% 2018 - 
+2022 
+Skills 
+ 
+ Automation Tools: Selenium WebDriver, TestNG, Cucumber, Maven, Jenkins  
+Programming Languages: Java, SQL 
+ API Testing: Postman 
+ Version Control: Git, GitHub  
+Test Management: JIRA 
+ Build & CI/CD Tools: Jenkins, Maven  
+Database: SQL 
+ Defect Tracking: JIRA 
+ Methodologies: Agile (Scrum) 
+Projects 
+ 
+Banking Application Project 
+ 
+Tools & Technologies: Selenium WebDriver, Java, TestNG, Maven, Jenkins, Git, Postman, JIRA, SQL 
+ 
+The project involved automation testing of banking applications offering services such as account management, fund 
+transfer, loan processing, and card management. 
+ 
+The goal was to ensure seamless functionality, data security, and performance across multiple modules integrated 
+through APIs and web interfaces 
+ 
+Roles and Responsibilities: 
+ Analyzed business requirements, functional specifications, and created automation test strategy and test 
+plans. 
+ 
+Designed and developed automation scripts using Selenium WebDriver with Java and TestNG for end-to-
+end testing of core banking features. 
+
+
+Implemented Page Object Model (POM) to enhance script reusability and maintainability. 
+ 
+Integrated automation suites with Jenkins for continuous integration and nightly regression execution. 
+ 
+Validated API services using Postman for account, loan, and transaction modules. 
+ 
+Verified backend data integrity through SQL queries against the banking database. 
+ 
+Reported and tracked defects using JIRA, coordinating closely with developers and business analysts for timely 
+resolution. 
+ 
+Maintained version control using Git, and participated in code reviews and peer testing. 
+ 
+Conducted regression, smoke, and sanity testing for every build release. 
+ 
+Ensured compliance with banking standards like data encryption, role-based access, and audit trail validation. 
+ 
+Retail Application Project 
+ 
+Tools & Technologies: Selenium WebDriver, Java, TestNG, Maven, Jenkins, Git, JIRA, Postman, SQL 
+ 
+Worked on automation testing of retail web applications covering product search, cart, checkout, payment, and 
+order management modules. 
+ 
+Designed and developed automation scripts using Selenium WebDriver with Java and TestNG following the Page 
+Object Model (POM) framework. Integrated test suites with Jenkins for CI/CD and executed regression and 
+smoke tests for every release. 
+ 
+Responsibilities: 
+ Analyzed user stories and created automated test scripts for end-to-end retail workflows. 
+ 
+Performed API testing using Postman for order, payment, and inventory modules. 
+ 
+Validated backend transactions using SQL queries. 
+ 
+Logged and tracked defects using JIRA and participated in sprint reviews. 
+ 
+ Contributed to framework enhancements and code maintenance using Git. 
+Declaration 
+ 
+The Above mentioned details are true best of my Knowlesge. 
+Place: Chennai Name: 
+kumarapan 
+"
+Arun Kumar B,arun.kumar@gmail.com,8143112345,"Chennai, India",Tata Consultancy Services (TCS),Test Engineer,Bachelor of Computer Applications (BCA),8,8,"[""Java"", ""Selenium WebDriver"", ""Cucumber"", ""TestNG"", ""Maven"", ""POM"", ""Extent Reports"", ""C#"", ""SpecFlow"", ""NUnit"", ""Mabl"", ""Jira"", ""Xray"", ""ALM"", ""Confluence"", ""Oracle"", ""MS SQL Server"", ""Toad"", ""Git"", ""GitHub Desktop"", ""Agile"", ""Scrum"", ""Kanban"", ""Waterfall"", ""SDLC"", ""STLC""]","Arun Kumar B 
++91 8143112345 | arun.kumar@gmail.com | Chennai, India | LinkedIn 
+Professional Summary 
+Test Engineer with 8+ years of experience in manual and automation testing, with primary 
+specialization in Java based automation using Selenium WebDriver, Cucumber (BDD), TestNG, 
+Maven, POM and Extent Reports. In addition, I have hands-on experience in C#, SpecFlow 
+(Reqnroll), NUnit and Mabl automation mainly focused on regression validation. Proficient in 
+requirement analysis, test planning, automation script development and defect management. 
+Experienced in preparing Master Test Plans (MTPs), End of Test Reports (EOTRs) and Traceability 
+Matrices. Strong BFSI domain expertise (Wealth Management, Investments, Insurance) with 
+extensive on-site UK client exposure. 
+Core Competencies 
+? Manual Testing: Requirement analysis, Test case design C execution, Defect lifecycle, 
+Regression, Smoke, Sanity, Integration, End-to-End, UAT support, Exploratory testing.?
+? Automation Testing: Selenium WebDriver, Java, Cucumber (BDD), TestNG, Maven, POM, 
+Extent Reports, C#, SpecFlow (Reqnroll), NUnit, Basic Mabl scripting.?
+? Documentation C Reporting: Master Test Plans (MTP), End of Test Reports (EOTR), 
+Traceability Matrices, Show C Tell sessions with business stakeholders.?
+? Test Management Tools: Jira, Xray, ALM, Confluence.?
+? Databases: Oracle, MS SQL Server, Toad.?
+? Other Tools: UFT Digital Lab, Excel, PowerPoint.?
+? Version Control: Git, GitHub Desktop.?
+? Methodologies: Agile (Scrum, Kanban), Waterfall, SDLC/STLC.?
+Certifications 
+? ISTQB Certified   Foundation Level?
+? Mabl Certified   Foundation C Advanced (basic scripting exposure)?
+Professional Experience 
+Test Engineer | Tata Consultancy Services (TCS) 
+Chennai, India & UK | July 201c   Present 
+? Prepared and executed MTPs, EOTRs and Traceability Matrices, ensuring complete test 
+coverage.?
+? Performed functional, regression, smoke, sanity, integration, end-to-end, and UAT testing 
+across web and mobile applications, including requirement analysis, test case design, 
+execution, defect tracking, and verification to ensure high-quality software releases.?
+
+? Contributed to building automation frameworks and developed automation scripts using 
+Java + Selenium WebDriver + Cucumber (BDD) + TestNG + Maven + POM + Extent Reports, 
+improving execution efficiency.?
+? Developed automation scripts in C# + SpecFlow (Reqnroll) + NUnit, supporting automation 
+initiatives and enhancing project delivery.?
+? Participated in framework design discussions and gained strong knowledge of automation 
+best practices.?
+? Gained hands-on exposure to Mabl for regression scripting and validations.?
+? Conducted requirement analysis, show C tell sessions, and collaborated with business 
+stakeholders.?
+? Coordinated with onshore/offshore teams to ensure timely project delivery.?
+Education 
+Bachelor of Computer Applications (BCA) 
+Sri Venkateswara University, Tirupati, India | 2016 
+Key Achievements 
+? Reduced regression cycle time by 60% with reusable automation frameworks.?
+? Participated in building frameworks and executed automation scripts across Java 
+(Cucumber, TestNG) and C# (SpecFlow, NUnit).?
+? Automated test suites across Java (Cucumber, TestNG) and C# (SpecFlow, NUnit).?
+? Supported migration of existing regression automation framework to Mabl and 
+developed Mabl test automation scripts for improved maintainability and faster 
+validation cycles.?
+? Delivered complete testing documentation (MTP, EOTR, Traceability) across multiple BFSI 
+projects.?
+? Recognized during UK on-site projects for strong stakeholder engagement and high-quality 
+delivery.?"
+ARAVINDH M,aravindh13@gmail.com,9961237871,"Chennai, India",TATA CONSULTANCY SERVICES,ASSISTANT CONSULTANT,BE.EEE,12,12,"[""Selenium"", ""MABL"", ""API Testing"", ""SQL"", ""Java"", ""Postman"", ""JIRA"", ""PractiTest"", ""Manual Testing"", ""Automation Testing""]","Email: aravindh13@gmail.com 
+Mobile: 9961237870 
+ARAVINDH M 
+PROFESSIONAL 
+SUMMARY 
+Dedicated QA Professional with 12 years of progressive experience  in 
+automation and manual testing for web, mobile, and enterprise platforms. 
+Proficient in Selenium WebDriver, MABL, API Testing, SQL, and Java , with 
+proven expertise in designing scalable frameworks and reducing regression 
+cycles. Experienced in Agile/Scrum environments, delivering high -quality 
+solutions in Salesforce CRM, ServiceNow, and Insurance domains. Recognized 
+for cross-team collaboration, test strategy development, and mentoring junior 
+testers. 
+ROLES AND 
+RESPONSIBILITIES 
+Lead and mentor a team of QA engineers in planning, designing, and executing 
+manual and automation test activities. 
+Develop and maintain automation test scripts using MABL test automation tool 
+to ensure robust test coverage. 
+Perform API testing  using Postman to validate RESTful services and verify 
+backend integrations. 
+Collaborate with cross-functional teams to define test strategies, ensure quality 
+deliverables, and identify potential risks early in the SDLC. 
+Manage and track testing progress, defects, and releases using JIRA and 
+PractiTest. 
+Participate in requirement analysis and provide inputs for improving testability 
+and product quality. 
+Conduct regression, functional, integration, and system testing across multiple 
+environments. 
+Implement best QA practices, review test cases, and ensure compliance with 
+organizational standards. 
+Prepare detailed test documentation including test plans, test reports, and 
+defect metrics. 
+Coordinate with developers and stakehol ders for timely issue resolution and 
+continuous improvement of QA processes. 
+SKILLS Manual Testing | Automation Testing | Selenium | JAVA | POSTMAN | MABL 
+|Playwright | JIRA | Practitest 
+ 
+
+Page 2 Saran 
+ 
+PROFESSIONAL 
+EXPERIENCE 
+ASSISTANT CONSULTANT, TATA CONSULTANCY SERVICES. 
+MAY 2019   PRESENT 
+ 
+SYSTEM ANALYST, C-EDGE TECHNOLOGIES. 
+OCT 2017   APR 2019  
+ 
+SOFTWARE TEST ENGINEER, REDIM INFORMATION SYSTEMS. 
+JUN 2016   SEPT 2017 
+ 
+TESTING ASSOCIATE, INFOPLUS TECHNOLOGIES PVT LTD. 
+OCT 2013   JUN 2016 
+PROJECTS NEWYORK LIFE INSURANCE-MYNYL (JAN 2025-PRESENT) 
+? Collaborated with cross functional teams to gather and analyze the 
+business requirements for automation. 
+? Designed and executed automation test scripts using MABL automation 
+tool. 
+? Conducted various testing types including regression, functional and 
+integration testing in Agile environments. 
+? Optimized test cases, reducing regression execution time by 30% through 
+automation with MABL. 
+? Maintaining the existing automation scripts and reusable flows. 
+? Prepare bug report and share it to Stakeholders. 
+? Actively participate in Standups, Sprint planning, and Retrospective. 
+ 
+NEWYORK LIFE INSURANCE- Salesforce CRM Application (JAN 2021-DEC 
+2024) 
+? Understand the application and requirements. 
+? Create testcases based on the client requirements. 
+? Execute the testcases and create the bug report. 
+? Performed GUI, Regression, Retesting, UAT and Smoke testing. 
+? Experienced in testing Service cloud and Sales cloud. 
+? Involved in creating Test Plan, Test coverage, and End to End test 
+coverage documents 
+? Actively participate in Daily Standups and Defect Triage Calls. 
+ 
+SERVICE NOW APPLICATION (SEPT 2017-DEC 2020) 
+? Understand the application and analyze requirements. 
+? Prepare Test Cases, Test Data & review it. 
+? Perform Smoke, Integration, System Testing. 
+? Performing Regression Testing, Re-Testing & Sanity Testing. 
+
+Page 3 Saran 
+ 
+? Experienced in testing ServiceNow components like Problem, Change, 
+and Incident. 
+? Share the Test plan, Test coverage, and Bug report to Stakeholders. 
+? Participate in Daily Scrum calls, Sprint Planning and Retrospective. 
+ 
+FULL COLOR GAMES (JUN 2016- SEPT 2017) 
+? Understand the application of Game and its rules. 
+? Prepare Test Cases and Test Scenarios based on Game rules. 
+? Perform Smoke, Integration, System Testing. 
+? Performing Regression Testing, Re-Testing & Sanity Testing. 
+? Experienced in testing Games with Web, Android, and iOS platforms. 
+? Share the Test plan, Test coverage, and Bug report to Stakeholders. 
+? Participate in Daily Scrum calls, Sprint Planning and Retrospective. 
+ 
+EDUCATION BE.EEE   TAGORE ENGINEERING COLLEGE, CHENNAI. 
+ "
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
